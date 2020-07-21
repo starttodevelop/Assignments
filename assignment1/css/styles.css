@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.open {
+    font-family: 'Poppins', sans-serif;
+  background-image: url(../images/backgrounnd.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.first {
+  height: 150px;
+}
+
+.loginh1 {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: cyan;
+  padding-top: 50px;
+  text-shadow: 0px 3px 15px lightseagreen;
+}
+
+.sec {
+  width: 300px;
+  height: 350px;
+  margin-top: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 60px 30px;
+  transform: translate(-50%, -50%);
+  background-color:#c0c0c0;
+  border: 7px solid black;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.userN , .passW {
+  border: 3px solid #000080;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  font-size: 17px;
+  opacity: 1;
+  color: crimson;
+  font-weight: bold;
+}
+
+.sub {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background: #483d8b;
+  color: gold;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sub:hover {
+  cursor: pointer;
+  background: orange;
+  color: #483d8b;
+}
+
+.remember {
+  color: #000080;
+  font-size: 17px;
+}
+
+.remember input {
+  width: 10%;
+  float: left;
+}
+.bck{
+    background-image: url(../images/b2.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    
+}
+.we{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.bd{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+.heading{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 50px;
+    padding-left: 8%;
+    padding-top: 8%;
+    text-shadow: 0px 3px 15px lightseagreen;
+}
+h2{
+    font-family: 'Grenze Gotisch', cursive;
+    padding-left: 8%;
+}
+a{
+    color: whitesmoke;
+    display: inline-block;
+    height: 5vh;
+    width: 24%;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.nav-bar{
+   background-color: black;
+   font-size: 20px;
+}
+.about{
+    
+    background-color: grey;
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+    align-content: center;
+    
+    
+}
+h2{text-decoration: underline;
+    color: black;
+    
+
+}
+main{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+ #hobbies{
+     background-color: grey;
+     width: 50%;
+     float: right;
+     display: block;
+ }   
+ ul{
+     list-style: none;
+ }
+ #hobbies ul li{padding-left: 2%;
+
+ }
+ #prof{
+     background-color: grey;
+     margin-top: 8%;
+     width: 50%;
+     height: 43vh;
+     align-items: center;
+
+ }
+ 
+ .hello{
+     padding: 10px;
+     border-radius: 20px;
+     background-color: black;
+     color: white;
+     margin: 10px;
+     
+ }
+.final{
+    padding-left: 35%;
+}
+#prof h2{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color:white;
+    margin: 20px;
+    
+}

@@ -18,12 +18,12 @@
   -----------
   Add a further validation to check if the user input in the password and confirm password inputs match.  Show an error message if they do not.
 */
-function passCheck(form){
-  if(document.getElementById('password')===document.getElementById('confirmpassword')){
-    return true;
+function passCheck(){
+  
+  
+  if(document.getElementById("password").value !== document.getElementById("confirmpassword").value){
+    alert("Different passwords entered");
   }
-  else
-  alert('Passwords dont match');
 
 }
 
@@ -32,6 +32,15 @@ function passCheck(form){
   -----------
 Ensure the ‘Register’ button is disabled until the user has entered valid data into all the input fields.  Once they have, the registration button should then be enabled.
 */
+function manage(){
+  
+if(document.getElementById("username"))===0)
+  {
+    document.getElementsByClassName("btn btn-primary btn-block").disabled = true;
+  }
+  else
+  document.getElementsByClassName("btn btn-primary btn-block").disabled = false;
+}
 
 
 /*
@@ -39,3 +48,6 @@ Ensure the ‘Register’ button is disabled until the user has entered valid da
   -----------
 When the user clicks the ‘Register’ button, a message should be displayed informing them of a successful user registration.
 */
+function succReg(){
+  alert("Successful Registration")
+}
